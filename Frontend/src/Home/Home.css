@@ -1,0 +1,39 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .top-tag {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .bus-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .bus-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px; 
+    height: auto;
+  }
+  
+  .select-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
